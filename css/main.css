@@ -125,3 +125,34 @@ footer {
     max-width: 800px;
     margin: 0 auto;
   }
+.bienvenida-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.columna-imagen {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.columna-imagen img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.columna-texto {
+  flex: 2 1 600px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
