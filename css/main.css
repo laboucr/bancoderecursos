@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Barra de navegación */
+nav {
+  background-color: #004080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.nav-logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  position: relative;
+}
+
+.nav-links a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links li:hover > a {
+  background-color: #0066cc;
+}
+
+/* Submenú */
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #0066cc;
+  min-width: 180px;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.dropdown a {
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #0055aa;
+}
+
+.nav-links li:hover .dropdown {
+  display: block;
+}
+
+/* Menú móvil */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .dropdown {
+    position: static;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #eee;
+  margin-top: 40px;
+}
