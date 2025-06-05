@@ -144,8 +144,9 @@ footer {
 }
 
 .columna-imagen img {
-  width: 100%;
-  max-width: 300px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover; /* Para que la imagen no se deforme */
   border-radius: 10px;
 }
 
