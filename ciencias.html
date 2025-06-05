@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ciencias - Banco de Recursos</title>
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/java.js" defer></script>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">Banco de Recursos</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#">Acerca</a></li>
+      <li>
+        <a href="#">Recursos ▾</a>
+        <div class="dropdown">
+          <a href="matematica.html">Matemática</a>
+          <a href="espanol.html">Español</a>
+          <a href="ciencias.html">Ciencias</a>
+          <a href="tecnologia.html">Tecnología</a>
+          <a href="ingles.html">Inglés</a>
+          <a href="estudios.html">Estudios Sociales</a>
+          <a href="otros.html">Otros Recursos</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <main style="padding: 20px;">
+    <h1>Ciencias</h1>
+
+    <img src="img/ciencias.jpg" alt="Imagen de Ciencias" style="width:100%; max-width:600px; margin:20px 0;">
+
+    <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse: collapse;">
+      <thead style="background-color: #f0f0f0;">
+        <tr>
+          <th>Imagen</th>
+          <th>Tema</th>
+          <th>Descripción</th>
+          <th>Acceso</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="img/khanciencia.jpg" alt="Khan Academy Ciencia" style="width:100px;"></td>
+          <td>Ciencias Naturales</td>
+          <td>Videos y ejercicios interactivos sobre biología, química, física y más.</td>
+          <td><a href="https://es.khanacademy.org/science" target="_blank">Khan Academy</a></td>
+        </tr>
+        <tr>
+          <td><img src="img/phET.jpg" alt="PhET" style="width:100px;"></td>
+          <td>Simulaciones de Física y Química</td>
+          <td>Simulaciones interactivas para experimentar conceptos científicos.</td>
+          <td><a href="https://phet.colorado.edu/es/" target="_blank">PhET Colorado</a></td>
+        </tr>
+        <tr>
+          <td><img src="img/biologia.jpg" alt="Biología Celular" style="width:100px;"></td>
+          <td>Biología Celular y Molecular</td>
+          <td>Recursos visuales sobre el cuerpo humano, células y genética.</td>
+          <td><a href="https://www.cellsalive.com/" target="_blank">Cells Alive</a></td>
+        </tr>
+        <tr>
+          <td><img src="img/quimica.jpg" alt="Química Interactiva" style="width:100px;"></td>
+          <td>Tabla Periódica Interactiva</td>
+          <td>Explora elementos químicos, propiedades y estructuras atómicas.</td>
+          <td><a href="https://ptable.com" target="_blank">PTable</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>Derechos reservados &copy; Rodrigo Arce - Liceo Laboratorio UCR 2025</p>
+  </footer>
+
+</body>
+</html>
