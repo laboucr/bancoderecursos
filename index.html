@@ -4,16 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Banco de Recursos - Liceo Laboratorio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Banco de Recursos</h1>
-  </header>
 
- 
+  <nav>
+    <div class="nav-logo">Banco de Recursos</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Acerca</a></li>
+      <li>
+        <a href="#">Recursos ▾</a>
+        <div class="dropdown">
+          <a href="#">Matemática</a>
+          <a href="#">Español</a>
+          <a href="#">Ciencias</a>
+          <a href="#">Tecnología</a>
+          <a href="#">Inglés</a>
+          <a href="#">Estudios Sociales</a>
+          <a href="#">Otros Recursos</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Bienvenido al Banco de Recursos</h1>
+    <p>Seleccione una categoría del menú para comenzar.</p>
+  </main>
 
   <footer>
     <p>Derechos reservados &copy; Rodrigo Arce - Liceo Laboratorio UCR 2025</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
