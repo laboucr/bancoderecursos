@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Matemática - Banco de Recursos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">Banco de Recursos</div>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#">Acerca</a></li>
+      <li>
+        <a href="#">Recursos ▾</a>
+        <div class="dropdown">
+          <a href="matematica.html">Matemática</a>
+          <a href="espanol.html">Español</a>
+          <a href="ciencias.html">Ciencias</a>
+          <a href="tecnologia.html">Tecnología</a>
+          <a href="ingles.html">Inglés</a>
+          <a href="estudios.html">Estudios Sociales</a>
+          <a href="otros.html">Otros Recursos</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <main style="padding: 20px;">
+    <h1>Matemática</h1>
+
+    <img src="img/matematica.jpg" alt="Imagen de Matemática" style="width:100%; max-width:600px; margin:20px 0;">
+
+    <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse: collapse;">
+      <thead style="background-color: #f0f0f0;">
+        <tr>
+          <th>Tema</th>
+          <th>Descripción</th>
+          <th>Acceso</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Álgebra Básica</td>
+          <td>Fundamentos de álgebra, ecuaciones, expresiones.</td>
+          <td><a href="https://www.khanacademy.org/math/algebra" target="_blank">Khan Academy</a></td>
+        </tr>
+        <tr>
+          <td>Geometría</td>
+          <td>Conceptos básicos de geometría, figuras, áreas.</td>
+          <td><a href="https://www.geogebra.org" target="_blank">GeoGebra</a></td>
+        </tr>
+        <tr>
+          <td>Matemáticas Interactivas</td>
+          <td>Actividades y juegos para aprender matemáticas.</td>
+          <td><a href="https://www.matific.com" target="_blank">Matific</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+  <footer>
+    <p>Derechos reservados &copy; Rodrigo Arce - Liceo Laboratorio UCR 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
