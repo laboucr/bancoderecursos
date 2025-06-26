@@ -13,11 +13,11 @@ main {
   padding: 20px;
 }
 img.cabeza {
-width: 200px;
-  height: 200px;
-  display: block;      /* Hace que se comporte como un bloque */
-  margin: 0 auto;      /* Centra horizontalmente */
-  object-fit: contain;  
+  max-width: 200px;      /* Puedes cambiar a 300px si quieres */
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    display: block;
 }
 
 /* Barra de navegación */
