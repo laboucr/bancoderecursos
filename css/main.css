@@ -13,8 +13,8 @@ main {
   padding: 20px;
 }
 img.cabeza {
-  max-width: 200px;      /* Puedes cambiar a 300px si quieres */
-    max-height: 200px;
+  max-width: 300px;      /* Puedes cambiar a 300px si quieres */
+    max-height: 300px;
     width: auto;
     height: auto;
     display: block;
