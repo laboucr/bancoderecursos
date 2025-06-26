@@ -12,6 +12,13 @@ body {
 main {
   padding: 20px;
 }
+img.cabeza {
+width: 200px;
+  height: 200px;
+  display: block;      /* Hace que se comporte como un bloque */
+  margin: 0 auto;      /* Centra horizontalmente */
+  object-fit: cover;  
+}
 
 /* Barra de navegación */
 nav {
