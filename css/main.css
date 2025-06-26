@@ -18,6 +18,8 @@ img.cabeza {
     width: auto;
     height: auto;
     display: block;
+  text-align:center;
+  position:relative;
 }
 
 /* Barra de navegación */
